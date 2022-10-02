@@ -1,0 +1,42 @@
+.achivement_block {
+  margin-top: 4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.achievements_list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
+
+div.achievement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: calc(100%/3);
+  font-size: 22px;
+  text-align: center;
+}
+
+div.achievement div.circle {
+  margin: auto;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid #598392;
+  background-color: #aec3b0;
+}
+
+div.achievement p {
+  color: #2F3E46;
+}
